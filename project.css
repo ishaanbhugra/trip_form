@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+}
+
+
+.container{
+    background-color: deeppink;
+    max-width: 80%;
+    margin: auto;
+    padding: 34px;
+}
+
+
+.container h3{
+    text-align: center;
+}
+
+
+.container p{
+    text-align: center;
+}
+
+
+input,textarea{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    /* display: block; */
+}
+
+
+h3{
+    font-size: 20px;
+}
+
+
+p{
+    font-size: 18px;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.submitmsg{
+    color: greenyellow;
+    
+}
